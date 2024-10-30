@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.wp-block-create-block-click-to-mail-button{
+    &.ctm-desktop-only {
+        display: inline-flex
+    }
+    &.ctm-tablet-only {
+      display: inline-flex
+    }
+    &.ctm-mobile-only {
+      display: inline-flex
+    }
+    &.ctm-mobile-tablet-only {
+      display: inline-flex
+    }
+}
